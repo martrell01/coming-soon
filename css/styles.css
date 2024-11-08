@@ -1,0 +1,216 @@
+body,
+.usa-card__container,
+input {
+    background-color: #011C26 !important;
+}
+
+.usa-logo {
+    clear: both !important;
+}
+
+.usa-logo p {
+    color: #C3CED5;
+    float: left !important;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.usa-navbar {
+    border-bottom: none;
+}
+
+.usa-navbar .usa-logo em.usa-logo__text a img {
+    float: left;
+    height: 60px;
+    margin-right: 7px;
+    width: 60px;
+}
+
+.usa-nav__primary button[aria-expanded=false] span::after {
+    background-color: #EEF1F3 !important;
+}
+
+.usa-nav__primary-item > .usa-current::after {
+    background-color: #6BA5F2 !important;
+}
+
+nav button img {
+    height: 24px;
+    width: 24px;
+}
+
+nav span {
+    color: #EEF1F3;
+    font-weight: 500;
+}
+
+main {
+    border-top: none !important;
+}
+
+.usa-card-group {
+    margin: 200px 0px;
+    text-align: center;
+}
+
+.usa-card__container {
+    border: none;
+}
+
+.usa-card__header,
+.usa-card__body,
+.usa-card__footer {
+    margin-left: 0 !important;
+}
+
+.usa-card__header h4 {
+    color: #6BA5F2;
+    font-size: 68px;
+}
+ 
+.usa-card__body p {
+    color: #EEF1F3;
+    font-size: 19px;
+    margin-bottom: 10px !important;
+}
+
+.usa-card-group section {
+    display: flex;
+    justify-content: center;
+}
+
+.usa-card-group section input {
+    border-color: #C3CED5;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 42px;
+    padding-left: 14px;
+    width: 400px;
+} 
+
+.usa-card-group section input::placeholder {
+    color: #C3CED5;
+    font-size: 15px;
+}
+
+.usa-card-group button { 
+    background-color: #6BA5F2;
+    height: 42px !important;
+}
+
+.usa-card-group button a {
+    color: #011C26;
+    font-weight: 500 !important;
+    text-decoration: none;
+}
+
+.usa-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    width: 100%;
+}
+
+.usa-footer__primary-section {
+    background-color: transparent;
+}
+
+.usa-footer__primary-container {
+    padding-right: 0px;
+}
+
+.usa-footer__nav ul {
+    margin-left: 0px !important;
+}
+
+.usa-footer a {
+    color: #EEF1F3;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.usa-footer__primary-section {
+    text-align: center;
+    width: 100%;
+}
+
+.usa-footer__address .grid-row {
+    margin-left: 60px !important;
+}
+
+/* media queries */
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .usa-card__header h4 {
+        color: #6BA5F2;
+        font-size: 52px;
+    }
+     
+    .usa-card__body p {
+        color: #EEF1F3;
+        font-size: 16px;
+    }
+    
+    .usa-card-group section input {
+        height: 37px;
+        padding-bottom: 4px;
+        width: 350px;
+    } 
+    
+    .usa-card-group section input::placeholder {
+        font-size: 14px;
+    }
+    
+    .usa-card-group button { 
+        height: 37px !important;
+    }
+    
+    .usa-card-group button a {
+        font-size: 14px;
+        font-weight: bold !important;
+        text-wrap: nowrap;
+    }
+
+    .usa-footer__address {
+        margin-left: 0px;
+    }
+
+    .usa-footer__address .grid-row{
+        margin-left: 0px !important;
+    }
+
+    .usa-footer__address .grid-col-auto {
+        padding-right: 20px !important;
+    }
+}
+
+/* Medium devices (tablets, less than 1023px) */
+@media (max-width: 1023px) { 
+    .usa-nav {
+        background-color: #011C26 !important;
+    }
+    .usa-logo p {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    
+    .usa-navbar .usa-logo em.usa-logo__text a img {
+        height: 45px;
+        margin-top: 5px;
+        width: 45px;
+    }
+
+    .usa-nav__primary-item button:hover {
+        background-color: #011C26 !important;
+    }
+
+    .usa-nav__primary-item a:hover {
+        background-color: #011C26 !important;
+    }
+}
+
+
+
+
